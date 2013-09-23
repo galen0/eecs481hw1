@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:onClick="onTicTacClick"
+        android:text="@string/hello_world" />
+
+    <ImageButton
+        android:id="@+id/button00"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="59dp"
+        android:contentDescription="@string/desc"
+        android:onClick="onTicTacClick" />
+
+    <ImageButton
+        android:id="@+id/Button01"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/button00"
+        android:layout_alignBottom="@+id/button00"
+        android:layout_toRightOf="@+id/button00"
+        android:contentDescription="@string/desc"
+        android:onClick="onTicTacClick" />
+
+    <ImageButton
+        android:id="@+id/Button02"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/Button01"
+        android:layout_alignBottom="@+id/Button01"
+        android:layout_toRightOf="@+id/Button01"
+        android:contentDescription="@string/desc"
+        android:onClick="onTicTacClick" />
+
+    <ImageButton
+        android:id="@+id/Button03"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/button00"
+        android:layout_toLeftOf="@+id/Button01"
+        android:contentDescription="@string/desc"
+        android:onClick="onTicTacClick" />
+
+    <ImageButton
+        android:id="@+id/Button04"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/Button03"
+        android:layout_alignBottom="@+id/Button03"
+        android:layout_toLeftOf="@+id/Button02"
+        android:contentDescription="@string/desc"
+        android:onClick="onTicTacClick" />
+
+    <ImageButton
+        android:id="@+id/Button05"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/Button04"
+        android:layout_alignBottom="@+id/Button04"
+        android:layout_alignLeft="@+id/Button02"
+        android:contentDescription="@string/desc"
+        android:onClick="onTicTacClick" />
+
+    <ImageButton
+        android:id="@+id/Button06"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/Button03"
+        android:layout_toLeftOf="@+id/Button04"
+        android:contentDescription="@string/desc"
+        android:onClick="onTicTacClick" />
+
+    <ImageButton
+        android:id="@+id/Button07"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/Button04"
+        android:layout_toLeftOf="@+id/Button05"
+        android:contentDescription="@string/desc"
+        android:onClick="onTicTacClick" />
+
+    <ImageButton
+        android:id="@+id/Button08"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBaseline="@+id/Button07"
+        android:layout_alignBottom="@+id/Button07"
+        android:layout_toRightOf="@+id/Button07"
+        android:contentDescription="@string/desc"
+        android:onClick="onTicTacClick" />
+
+    <Button
+        android:id="@+id/Restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/Button07"
+        android:layout_below="@+id/Button06"
+        android:layout_marginTop="32dp"
+        android:text="Restart" 
+        android:visibility="gone"
+        android:onClick="onRestart"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button01"
+        android:layout_alignLeft="@+id/button00"
+        android:layout_alignRight="@+id/Button02"
+        android:layout_below="@+id/textView1"
+        android:text="TextView"
+        android:gravity="center" 
+        android:textSize="30dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">com.eecs481.homework1</string>
+    <string name="hello_world">EECS 481 Homework2\nGalen Gong (ggong)</string>
+    <string name="menu_settings">Settings</string>
+    <string name="desc">Tic Tac Toe Button</string>
+
+</resources>
