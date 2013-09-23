@@ -2,6 +2,8 @@ EECS 481 Homework 2
 Galen Gong (ggong)
 README
 
+https://github.com/galen0/eecs481hw1
+
 This program is a Tic Tac Toe simulator for Android.
 
 To run the program, use eclipse with the Android SDK and Android Virtual Device Manager
